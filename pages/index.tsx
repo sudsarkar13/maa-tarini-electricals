@@ -5,13 +5,15 @@ import Hero from "@/components/Hero";
 
 const HomePage = () => {
 	return (
-    <Head>
-      <title>Maa Tarini Electricals</title>
-    </Head>
 		<div>
-			HomePage
-			{/* Hero Page */}
-			<Hero />
+			<Head>
+				<title>Maa Tarini Electricals</title>
+			</Head>
+			<div>
+				HomePage
+				{/* Hero Page */}
+				<Hero />
+			</div>
 		</div>
 	);
 };
