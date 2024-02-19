@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
 import Hero from "@/components/Hero";
 
 const HomePage = () => {
@@ -9,8 +10,7 @@ const HomePage = () => {
 			<Head>
 				<title>Maa Tarini Electricals</title>
 			</Head>
-			<div>
-				HomePage
+			<div className='background'>
 				{/* Hero Page */}
 				<Hero />
 			</div>
